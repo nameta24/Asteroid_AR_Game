@@ -1,0 +1,64 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CreateObject">
+			<method name="CreateNewObject"/>
+			<method name="CreateNewObject"/>
+			<method name="CreateNewObject"/>
+			<method name="CreateNewObject"/>
+			<method name="CreateNewObject"/>
+			<method name="CreateNewObject"/>
+			<method name="CreateNewObject"/>
+			<method name="CreateNewObject"/>
+			<method name="CreateNewObject"/>
+		</type>
+		<type fullname="DestroyObjects">
+			<method name="DestroyWithDelay"/>
+			<method name="DestroyWithDelay"/>
+			<method name="DestroyWithDelay"/>
+			<method name="DestroyWithDelay"/>
+			<method name="DestroyWithDelay"/>
+			<method name="DestroyWithDelay"/>
+			<method name="DestroyWithDelay"/>
+			<method name="DestroyWithDelay"/>
+			<method name="DestroyWithDelay"/>
+		</type>
+		<type fullname="GameState">
+			<method name="IncreaseScore"/>
+			<method name="IncreaseScore"/>
+			<method name="IncreaseScore"/>
+			<method name="IncreaseScore"/>
+			<method name="LoadScene"/>
+			<method name="set_GameOver"/>
+			<method name="set_GameOver"/>
+			<method name="set_GameOver"/>
+		</type>
+		<type fullname="Health">
+			<method name="ReceiveDamage"/>
+			<method name="ReceiveDamage"/>
+			<method name="ReceiveDamage"/>
+			<method name="ReceiveDamage"/>
+			<method name="ReceiveDamage"/>
+		</type>
+		<type fullname="UFO">
+			<method name="Die"/>
+			<method name="StartAttacking"/>
+			<method name="StartCooldown"/>
+		</type>
+		<type fullname="UIController">
+			<method name="UpdatePlanetHealthUI"/>
+			<method name="UpdatePlayerHealthUI"/>
+			<method name="UpdatePlayerHealthUI"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="Play"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Behaviour">
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+		</type>
+	</assembly>
+</linker>
